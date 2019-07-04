@@ -10,3 +10,4 @@ def assign_rooms(attendees)
   count = 0 
   attendees.map {|person| "Hello, #{person}! You'll be assigned to room #{count += 1}!"}
 end
+
